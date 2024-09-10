@@ -55,4 +55,29 @@ avg_sleep_per_user.show()
 # Exercise 7
 # 7. Find the Total Calories Burned per Day
 # Group the data by date and calculate the total calories burned by all users combined for each day.
-total_calories
+total_calories_per_day = data.groupBy("date").agg(sum("calories_burned").alias("total_calories"))
+print("Total calories burned per day:")
+total_calories_per_day.show()
+
+# Exercise 8
+# 8. Identify Users Who Did Different Types of Workouts
+# Identify users who participated in more than one type of workout.
+workout_types_per_user = data.groupBy("user_id").agg(count("workout_type").alias("num_workout_types"))
+users_multiple_workouts = workout_types_per_user.filter(workout_types_per_user["num_workout_types"] > 1)
+print("Users who did different types of workouts:")
+users_multiple_workouts.show()
+
+# Exercise 9
+# 9. Calculate the Total Number of Workouts per User
+# Group the data by user_id and count the total number of workouts completed by each user.
+total_workouts_per_user = data.groupBy("user_id").agg(count("workout_type").alias("total_workouts"))
+print("Total number of workouts per user:")
+total_workouts_per_user.show()
+
+# Exercise 10
+# 10. Create a New Column for "Active" Days
+# Add a new column called active_day that classifies a day as "Active" if the user took more than 10,000 steps, otherwise classify it as "Inactive."
+data = data.withColumn("active_day", when(data["steps"] > 10000, "Active").otherwise("Inactive"))
+print("New column for 'Active' days:")
+data.show()
+
