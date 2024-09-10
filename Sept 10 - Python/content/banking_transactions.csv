@@ -1,0 +1,11 @@
+transaction_id,customer_id,transaction_type,amount,transaction_date
+1,201,Deposit,5000,2023-09-01
+2,202,Withdrawal,2000,2023-09-01
+3,203,Deposit,3000,2023-09-02
+4,201,Withdrawal,1500,2023-09-02
+5,204,Deposit,10000,2023-09-03
+6,205,Withdrawal,500,2023-09-03
+7,202,Deposit,2500,2023-09-04
+8,206,Withdrawal,700,2023-09-04
+9,203,Deposit,4000,2023-09-05
+10,204,Withdrawal,3000,2023-09-05
