@@ -1,0 +1,10 @@
+user_id,song_title,artist,duration_seconds,streaming_time,location
+1,Blinding Lights,The Weeknd,200,2023-09-01 08:15:00,New York
+2,Shape of You,Ed Sheeran,240,2023-09-01 09:20:00,Los Angeles
+3,Levitating,Dua Lipa,180,2023-09-01 10:30:00,London
+1,Starboy,The Weeknd,220,2023-09-01 11:00:00,New York
+2,Perfect,Ed Sheeran,250,2023-09-01 12:15:00,Los Angeles
+3,Don't Start Now,Dua Lipa,200,2023-09-02 08:10:00,London
+1,Save Your Tears,The Weeknd,210,2023-09-02 09:00:00,New York
+2,Galway Girl,Ed Sheeran,190,2023-09-02 10:00:00,Los Angeles
+3,New Rules,Dua Lipa,230,2023-09-02 11:00:00,London
