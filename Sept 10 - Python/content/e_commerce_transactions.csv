@@ -1,0 +1,11 @@
+transaction_id,customer_id,product,category,price,quantity,discount_percentage,transaction_date
+1,101,Laptop,Electronics,1000,1,10,2023-08-01
+2,102,Smartphone,Electronics,700,2,5,2023-08-01
+3,103,Shirt,Fashion,40,3,0,2023-08-02
+4,104,Blender,Home Appliance,150,1,15,2023-08-03
+5,101,Headphones,Electronics,100,2,10,2023-08-03
+6,105,Shoes,Fashion,60,1,20,2023-08-04
+7,106,Refrigerator,Home Appliance,800,1,25,2023-08-05
+8,107,Book,Books,20,4,0,2023-08-05
+9,108,Toaster,Home Appliance,30,1,5,2023-08-06
+10,102,Tablet,Electronics,300,2,10,2023-08-06
