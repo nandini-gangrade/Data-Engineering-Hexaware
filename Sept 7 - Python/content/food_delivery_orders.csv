@@ -1,0 +1,11 @@
+order_id,customer_id,restaurant_name,food_item,quantity,price,delivery_time_mins,order_d
+1,201,McDonald's,Burger,2,5.99,30,2023-06-15
+2,202,Pizza Hut,Pizza,1,12.99,45,2023-06-16
+3,203,KFC,Fried Chicken,3,8.99,25,2023-06-17
+4,201,Subway,Sandwich,2,6.50,20,2023-06-17
+5,204,Domino's,Pizza,2,11.99,40,2023-06-18
+6,205,Starbucks,Coffee,1,4.50,15,2023-06-18
+7,202,KFC,Fried Chicken,1,8.99,25,2023-06-19
+8,206,McDonald's,Fries,3,2.99,15,2023-06-19
+9,207,Burger King,Burger,1,6.99,30,2023-06-20
+10,203,Starbucks,Coffee,2,4.50,20,2023-06-20
