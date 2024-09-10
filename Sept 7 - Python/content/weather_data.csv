@@ -1,0 +1,10 @@
+date,city,temperature_c,humidity,wind_speed_kph,condition
+2023-01-01,New York,5,60,20,Cloudy
+2023-01-01,Los Angeles,15,40,10,Sunny
+2023-01-01,Chicago,-2,75,25,Snow
+2023-01-02,New York,3,65,15,Rain
+2023-01-02,Los Angeles,18,35,8,Sunny
+2023-01-02,Chicago,-5,80,30,Snow
+2023-01-03,New York,6,55,22,Sunny
+2023-01-03,Los Angeles,20,38,12,Sunny
+2023-01-03,Chicago,-1,70,18,Cloudy
